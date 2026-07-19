@@ -1,4 +1,4 @@
-# 💻 Windows Enterprise Workstation Deployment
+# 💻 Enterprise-Windows-Administration-Lab
 
 > Simulated Week 1 Desktop Support scenario:
 > configure the first standardized Windows 11 Enterprise image
@@ -119,7 +119,7 @@ netsh advfirewall show all
 ---
 
 ## Repository Structure
-Enterprise-Windows-Workstation/
+Enterprise-Windows-Administration-Lab/
 ├── README.md
 ├── screenshots/
 │   ├── 01-baseline/
