@@ -7,7 +7,7 @@
 ![](https://img.shields.io/badge/OS-Windows%2011%20Enterprise-blue)
 ![](https://img.shields.io/badge/Role-Desktop%20Support%20Technician-lightgrey)
 ![](https://img.shields.io/badge/Platform-VMware%20Workstation-orange)
-![](https://img.shields.io/badge/Progress-3%20of%2010%20Complete-yellow)
+![](https://img.shields.io/badge/Status-Complete-brightgreen)
 
 ---
 
@@ -19,23 +19,6 @@ security hardening, user management, networking, and system administration —
 using only native Windows tools and CMD.
 
 **Role simulated:** Desktop Support Technician / IT Support Specialist
-
----
-
-## Progress
-
-| Phase | Topic | Status |
-|-------|-------|--------|
-| 1 | Baseline Documentation | ✅ Complete |
-| 2 | Workstation Standardization | ✅ Complete |
-| 3 | Local Users & Groups | ✅ Complete |
-| 4 | Windows Security Hardening | ⏳ In Progress |
-| 5 | Windows Defender | ⏳ Pending |
-| 6 | BitLocker | ⏳ Pending |
-| 7 | Windows Firewall | ⏳ Pending |
-| 8 | Networking Tools | ⏳ Pending |
-| 9 | Event Viewer & Performance Monitor | ⏳ Pending |
-| 10 | Final Documentation & Validation | ⏳ Pending |
 
 ---
 
@@ -60,47 +43,47 @@ using only native Windows tools and CMD.
 ### Phase 2 — Workstation Standardization ✅
 - Clean install of Windows 11 Enterprise in VMware
 - Configured computer name, region, time zone, and display settings
-- Applied initial Windows Updates to bring system to current patch level
+- Applied all pending Windows Updates
 
 ### Phase 3 — Local Users & Groups ✅
 - Created Administrator and Standard User accounts
 - Verified group membership and permission levels
 - Tested login behavior for each account type
 
-### Phase 4 — Windows Security Hardening ⏳
-- Configure Windows Security baseline settings
-- Disable unnecessary services and features
-- Apply CIS Benchmark recommendations
+### Phase 4 — Windows Security Hardening ✅
+- Applied Windows Security baseline settings
+- Disabled unnecessary services and features
+- Validated configuration against CIS Benchmark recommendations
 
-### Phase 5 — Windows Defender ⏳
-- Verify real-time protection and cloud-delivered protection
-- Run full system scan and review results
-- Configure exclusions and scheduled scans
+### Phase 5 — Windows Defender ✅
+- Verified real-time and cloud-delivered protection
+- Ran full system scan — no threats detected
+- Configured scheduled scans
 
-### Phase 6 — BitLocker ⏳
-- Enable BitLocker on the OS drive
-- Save and document recovery key securely
-- Verify encryption status
+### Phase 6 — BitLocker ✅
+- Enabled BitLocker on the OS drive
+- Recovery key saved and documented securely
+- Verified encryption status — fully encrypted
 
-### Phase 7 — Windows Firewall ⏳
-- Review Domain / Private / Public firewall profiles
-- Create custom inbound and outbound rules
-- Test and validate rule behavior
+### Phase 7 — Windows Firewall ✅
+- Reviewed Domain / Private / Public profiles
+- Created custom inbound rule and validated behavior
+- Confirmed rule order and default-deny posture
 
-### Phase 8 — Networking Tools ⏳
-- Configure static IP addressing
-- Verify connectivity using `ipconfig /all` · `ping` · `nslookup`
-- Document network configuration
+### Phase 8 — Networking Tools ✅
+- Configured static IP addressing
+- Verified connectivity: `ipconfig /all` · `ping` · `nslookup`
+- Documented full network configuration
 
-### Phase 9 — Event Viewer & Performance Monitor ⏳
-- Investigate System and Application logs
-- Identify and document warning and error events
-- Track CPU, RAM, and Disk usage via Performance Monitor
+### Phase 9 — Event Viewer & Performance Monitor ✅
+- Investigated System and Application logs
+- Identified and documented a sample warning event
+- Tracked CPU, RAM, and Disk via Performance Monitor data collector set
 
-### Phase 10 — Final Documentation & Validation ⏳
-- Complete all docs: checklist · lessons learned · troubleshooting
-- Final screenshot evidence for all phases
-- Validate against deployment checklist
+### Phase 10 — Final Documentation & Validation ✅
+- All phases documented with screenshot evidence
+- Deployment checklist signed off
+- Lessons learned and troubleshooting guide completed
 
 ---
 
@@ -174,23 +157,23 @@ Enterprise-Windows-Workstation/
 Had to enable virtual TPM in VM Settings → Security → Enable TPM
 before BitLocker would activate.
 
-**2. Windows 11 hardware requirements blocked the install**
-TPM 2.0 and Secure Boot must be enabled before starting the install —
+**2. Windows 11 blocked install without TPM 2.0 and Secure Boot**
+Both must be enabled before starting the OS install —
 not something you can fix after the fact.
 
 **3. Static IP broke DNS resolution**
 After setting a static IP, `ping google.com` failed
 but `ping 8.8.8.8` worked.
-Fix: manually set preferred DNS to `8.8.8.8`.
+Fix: manually added `8.8.8.8` as preferred DNS.
 
 **4. sfc /scannow requires elevated CMD**
 Must right-click → Run as administrator.
-Exactly the kind of thing a help desk call is about.
+Exactly the kind of mistake a help desk call is about.
 
 **5. Firewall rule order matters**
-A broader allow rule higher in the list was overriding
-my custom block rule. Moved the block rule above it — fixed.
-Firewall rules evaluate top-down. Order is everything.
+A broader allow rule was overriding my custom block rule.
+Moved the block rule above it — fixed immediately.
+Rules evaluate top-down. Order is everything.
 
 ---
 
