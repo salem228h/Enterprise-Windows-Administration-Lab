@@ -1,14 +1,3 @@
-## IP Configuration Analysis
+# Screenshots
 
-The workstation successfully received its network configuration through DHCP.
-
-Verified:
-
-- Hostname: WS-001
-- DHCP: Enabled
-- IPv4 Address: 10.0.2.15
-- Subnet Mask: 255.255.255.0
-- Default Gateway: 10.0.2.2
-- DNS Server: 192.168.0.1
-
-The network configuration indicates that the workstation is correctly connected to the network and is ready for communication.
+This folder contains screenshot evidence for each project phase. The images document the configuration steps, command outputs, troubleshooting process, system validation, and final results. Each screenshot is referenced in the project documentation to provide clear evidence of the completed hands-on tasks.
