@@ -1,3 +1,4 @@
+# Networking Tools
 ## IP Configuration Analysis
 
 The workstation successfully received its network configuration through DHCP.
