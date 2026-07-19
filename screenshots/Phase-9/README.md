@@ -14,3 +14,19 @@ Low impact warning related to user profile cleanup during logoff.
 
 Troubleshooting:
 Reviewed running processes and documented the event for monitoring.
+## Performance Monitoring
+
+Performance Monitor was used to evaluate workstation health.
+
+Monitored Counters:
+- Processor → % Processor Time (_Total)
+- Memory → Available MBytes
+- PhysicalDisk → % Disk Time (_Total)
+
+Results:
+- CPU utilization remained within normal limits.
+- Available memory was sufficient for normal operation.
+- Disk activity showed no sustained high utilization.
+
+Conclusion:
+No immediate performance bottlenecks were detected during monitoring.
