@@ -1,4 +1,4 @@
-### P9-01 — Event Viewer (System Logs)
+### P9- — Event Viewer (System Logs)
 
 The Windows System log was reviewed using Event Viewer to identify hardware, driver, and operating system events. System logs are one of the primary sources used by IT Support technicians when troubleshooting workstation issues.
 
@@ -34,6 +34,3 @@ This type of analysis helps IT Support technicians diagnose application issues, 
 - Disk Performance Monitoring
 - Windows System Diagnostics
 
-T
-
-**Skills Demonstrated**
