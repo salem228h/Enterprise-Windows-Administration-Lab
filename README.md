@@ -7,7 +7,7 @@
 ![](https://img.shields.io/badge/OS-Windows%2011%20Enterprise-blue)
 ![](https://img.shields.io/badge/Role-Desktop%20Support%20Technician-lightgrey)
 ![](https://img.shields.io/badge/Platform-VMware%20Workstation-orange)
-![](https://img.shields.io/badge/Series-Part%201%20of%208-brightgreen)
+![](https://img.shields.io/badge/Series-Part%201%20of%206-brightgreen)
 
 ---
 
