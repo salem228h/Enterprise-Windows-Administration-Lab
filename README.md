@@ -38,32 +38,26 @@ using only native Windows tools and CMD.
 ### 1. 🖥️ Windows 11 Installation & Configuration
 - Clean install in VMware Workstation
 - Configured computer name, region, time zone, and initial settings
-- 📸 `screenshot_01_system_info.png`
 
 ### 2. 👤 Local User & Group Management
 - Created Administrator and Standard User accounts
 - Verified group membership and access permissions
-- 📸 `screenshot_02_local_users.png`
 
 ### 3. 🛡️ Windows Security Configuration
 - Verified Windows Defender real-time protection
 - Applied all pending Windows Updates
-- 📸 `screenshot_03_windows_security.png`
 
 ### 4. 🔐 BitLocker Drive Encryption
 - Enabled BitLocker on the OS drive
 - Recovery key saved and documented securely
-- 📸 `screenshot_04_bitlocker.png`
 
 ### 5. 🔥 Windows Firewall Configuration
 - Reviewed Domain / Private / Public firewall profiles
 - Created a custom inbound rule
-- 📸 `screenshot_05_firewall.png`
 
 ### 6. 🌐 Networking Configuration
 - Configured static IP addressing
 - Verified connectivity: `ipconfig /all` · `ping` · `nslookup`
-- 📸 `screenshot_06_ipconfig.png`
 
 ### 7. ⌨️ Command Line Administration
 ```cmd
@@ -72,17 +66,14 @@ tasklist            → running processes
 netstat -an         → active connections and listening ports
 sfc /scannow        → system file integrity check
 ```
-- 📸 `screenshot_07_cmd_output.png`
 
 ### 8. 📋 Event Viewer
 - Investigated System and Application logs
 - Identified and documented a sample warning / error event
-- 📸 `screenshot_08_event_viewer.png`
 
 ### 9. 📊 Performance Monitoring
 - Tracked CPU, RAM, and Disk usage via Resource Monitor
 - Created a Performance Monitor data collector set
-- 📸 `screenshot_09_perfmon.png`
 
 ---
 
