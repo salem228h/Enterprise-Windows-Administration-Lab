@@ -116,48 +116,11 @@ netsh advfirewall show all
 `CMD Administration` `Event Log Analysis`
 `Performance Monitoring` `System Troubleshooting`
 
----
-
-## Repository Contents
-windows-workstation-deploy/
-├── screenshots/
-│   ├── 01_system_info.png
-│   ├── 02_local_users.png
-│   ├── 03_windows_security.png
-│   ├── 04_bitlocker.png
-│   ├── 05_firewall.png
-│   ├── 06_ipconfig.png
-│   ├── 07_cmd_output.png
-│   ├── 08_event_viewer.png
-│   └── 09_perfmon.png
-├── docs/
-│   └── deployment_checklist.md
-└── README.md
 
 ---
 
-## Lessons Learned
 
-> *(Add your own notes here — issues you hit and how you fixed them.
-> This is what makes the project real to recruiters.)*
->
-> Example: *"BitLocker required TPM to be enabled in VMware settings —
-> had to add `managedvm.autoAddVTPM = TRUE` to the .vmx file."*
 
----
-
-## 📂 Part of: Enterprise IT Portfolio (8-Part Series)
-
-| # | Project | Status |
-|---|---------|--------|
-| **1** | **Windows 11 Workstation Deployment** | **✅ This repo** |
-| 2 | Active Directory & Group Policy | 🔜 |
-| 3 | Microsoft 365 Administration | 🔜 |
-| 4 | Azure / Entra ID | 🔜 |
-| 5 | Microsoft Intune (MDM) | 🔜 |
-| 6 | Enterprise Help Desk Scenarios | 🔜 |
-| 7 | Network Troubleshooting | 🔜 |
-| 8 | Capstone — Full IT Support Simulation | 🔜 |
 
 ---
 
