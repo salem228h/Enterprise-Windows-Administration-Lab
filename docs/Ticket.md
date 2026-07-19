@@ -17,3 +17,18 @@ Verify Windows Defender Firewall configuration and create a custom inbound firew
 ## Result
 
 The firewall configuration was verified and a custom inbound rule was successfully created.
+
+## Ticket Information
+Issue:
+User Profile Service warning detected.
+
+Event:
+ID 1512
+
+Cause:
+Windows was unable to unload user registry hive because a process still held the registry open.
+
+Action:
+- Checked running applications
+- Restarted workstation
+- Monitor recurrence
