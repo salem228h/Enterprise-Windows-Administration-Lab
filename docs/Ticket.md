@@ -1,34 +1,21 @@
-# Ticket
+# Project Tickets
 
-## Ticket Information
+The project was completed using a ticket-based workflow to simulate real-world IT Support operations.
 
-| Item | Value |
-|------|------|
-| Ticket ID | IT-WS-006 |
-| Category | Windows Firewall |
-| Priority | Medium |
-| Status | Completed |
-| Assigned To | Mohammad Salem Hassani |
+| Ticket ID | Category | Status |
+|-----------|----------|--------|
+| IT-WS-001 | Windows Installation | Completed |
+| IT-WS-002 | User Management | Completed |
+| IT-WS-003 | Windows Update & Drivers | Completed |
+| IT-WS-004 | NTFS Permissions | Completed |
+| IT-WS-005 | Disk Management | Completed |
+| IT-WS-006 | Windows Services | Completed |
+| IT-WS-007 | Network Troubleshooting | Completed |
+| IT-WS-008 | Windows Firewall | Completed |
+| IT-WS-009 | Event Viewer & Performance Monitor | Completed |
+| IT-WS-010 | BitLocker | Completed |
+| IT-WS-011 | Final Documentation & Validation | Completed |
 
-## Request
+## Summary
 
-Verify Windows Defender Firewall configuration and create a custom inbound firewall rule according to the organization's security policy.
-
-## Result
-
-The firewall configuration was verified and a custom inbound rule was successfully created.
-
-## Ticket Information
-Issue:
-User Profile Service warning detected.
-
-Event:
-ID 1512
-
-Cause:
-Windows was unable to unload user registry hive because a process still held the registry open.
-
-Action:
-- Checked running applications
-- Restarted workstation
-- Monitor recurrence
+All tickets were completed successfully and validated with supporting documentation and screenshots.
