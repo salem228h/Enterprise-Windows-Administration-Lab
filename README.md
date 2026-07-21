@@ -26,7 +26,7 @@ using only native Windows tools and CMD.
 
 | Component | Detail |
 |-----------|--------|
-| Virtualization | VMware Workstation |
+| Virtualization | VBox Workstation |
 | OS | Windows 11 Enterprise |
 | Tools | Local Users & Groups · Windows Defender · BitLocker |
 | | Windows Firewall · CMD · Event Viewer · Performance Monitor |
